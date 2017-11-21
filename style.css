@@ -1,0 +1,83 @@
+body{
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-family: 'VT323', monospace;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+ul{
+    display: inline-flex;
+}
+
+li{
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 25px;
+}
+
+li a{
+    color: #555555;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    margin-bottom: -20px;
+    height: 100px;
+}
+
+#sketchpad{
+    background: #FFF;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.pixel{
+    background: #CCC;
+    width: calc(3.125%);
+    height: calc(3.125%);
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.toolbar{
+    width: 500px;
+    margin: 0 auto;
+    border-bottom: 2px solid #555555;
+}
+
+.btn{
+    border: none;
+    color: #FFF;
+    height: 35px;
+    margin: -2px;
+    width: 20%
+}
+
+.black{
+    background: #000;
+}
+
+.red{
+    background: red;
+}
+
+.blue{
+    background: blue;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.reset{
+    background: #8a8a8a;
+}

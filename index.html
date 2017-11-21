@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sketchpad</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323|Varela+Round" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <script src="https://use.fontawesome.com/98fa6c23ba.js"></script>
+</head>
+<body>
+    <main>
+        <nav class="site-nav">
+            <h1>Pixelpad</h1>
+        </nav>
+        <div class="toolbar">
+            <button class="btn red" onclick="changetoRed()">Red</button>
+            <button class="btn yellow" onclick="changetoYellow()">Yellow</button>
+            <button class="btn blue" onclick="changetoBlue()">Blue</button>
+            <button class="btn black" onclick="changetoBlack()">Black</button>
+            <button class="btn reset" onclick="resetPad()">Reset</button>
+        </div>
+        <div id="sketchpad">
+            <div class="pixel"></div>
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.github.com/hoflerk94">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/khoflerco">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p style="margin-left: 50px; margin-top: 0px; margin-bottom: 20px; color: #565656;">Karelle Hofler. 2017.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# pixelpad
-a pixel styled sketchpad
+# sketchpad
+A simple sketchpad created with HTML, CSS, Javascript and Jquery
