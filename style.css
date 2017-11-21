@@ -81,3 +81,14 @@ footer{
 .reset{
     background: #8a8a8a;
 }
+
+@media screen (min-width: 320px) and (max-width: 414){
+    .sketchpad{
+        height: 320px;
+        width: 100%;   
+    }
+    
+    .toolbar{
+        width: 100%;
+    }
+}    
