@@ -82,7 +82,7 @@ footer{
     background: #8a8a8a;
 }
 
-@media screen (min-width: 320px) and (max-width: 414){
+@media screen (min-width: 320px) and (max-width: 414px){
     .sketchpad{
         height: 320px;
         width: 100%;   
